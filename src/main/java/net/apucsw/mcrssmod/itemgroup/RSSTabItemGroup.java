@@ -4,10 +4,10 @@ package net.apucsw.mcrssmod.itemgroup;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
+import net.apucsw.mcrssmod.item.WearableDeviceIconOnlyItem;
 import net.apucsw.mcrssmod.McrssmodModElements;
 
 @McrssmodModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class RSSTabItemGroup extends McrssmodModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Items.POTION);
+				return new ItemStack(WearableDeviceIconOnlyItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

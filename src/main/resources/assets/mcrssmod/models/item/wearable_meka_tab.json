@@ -1,0 +1,8 @@
+{
+  "parent": "mcrssmod:custom/wearable_mekatab",
+  "textures": {
+    "4": "mcrssmod:blocks/wearable_mekatab_body",
+    "6": "mcrssmod:blocks/wearable_mekatab_logo",
+    "particle": "mcrssmod:items/wearable_device._mekatab"
+  }
+}

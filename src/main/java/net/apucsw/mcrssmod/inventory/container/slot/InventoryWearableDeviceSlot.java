@@ -15,7 +15,6 @@
 package net.apucsw.mcrssmod.inventory.container.slot;
 
 import com.mojang.datafixers.util.Pair;
-import net.apucsw.mcrssmod.McrssmodMod;
 import net.apucsw.mcrssmod.inventory.container.PlayerContainerExtended;
 import net.minecraft.client.renderer.texture.AtlasTexture;
 import net.minecraft.inventory.IInventory;

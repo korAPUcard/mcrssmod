@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "wearable_mekatab_body",
+        "6": "wearable_mekatab_logo"
+      },
+      "name": "default"
+    }
+  }
+}
