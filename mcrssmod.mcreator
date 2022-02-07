@@ -1,0 +1,57 @@
+{
+  "mod_elements": [
+    {
+      "name": "RSSTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rss_tab"
+    },
+    {
+      "name": "ExtendedPlayerSlotWearableDevice",
+      "type": "code",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "extended_player_slot_wearable_device"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ko_kr": {
+      "itemGroup.tabrss_tab": "Realistic Survival System"
+    },
+    "en_us": {
+      "itemGroup.tabrss_tab": "Realistic Survival System"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mcrssmod",
+    "modName": "Realistic Survival System",
+    "version": "1.0.0",
+    "author": "KOR_APUcard, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Creative Commons Attribution-ShareAlike 4.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [
+      "mekanism"
+    ],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.apucsw.mcrssmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
