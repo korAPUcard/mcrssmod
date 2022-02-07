@@ -24,13 +24,13 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ExtendedPlayerSlotWearableDevice {
-	public ExtendedPlayerSlotWearableDevice() {
+public class InventoryWearableDeviceSlot {
+	public InventoryWearableDeviceSlot() {
 	}
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
-		new ExtendedPlayerSlotWearableDevice();
+		new InventoryWearableDeviceSlot();
 	}
 
 	@Mod.EventBusSubscriber

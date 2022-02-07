@@ -9,12 +9,12 @@
       "registry_name": "rss_tab"
     },
     {
-      "name": "ExtendedPlayerSlotWearableDevice",
+      "name": "InventoryWearableDeviceSlot",
       "type": "code",
       "sortid": 2,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "extended_player_slot_wearable_device"
+      "registry_name": "inventory_wearable_device_slot"
     }
   ],
   "variable_elements": [],
