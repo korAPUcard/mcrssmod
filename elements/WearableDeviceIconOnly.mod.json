@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "wearable_device._mekatab",
+    "texture": "wearable_device_mekatab",
     "customModelName": "Normal",
     "name": "Wearable Meka Tab",
     "rarity": "RARE",
