@@ -15,12 +15,14 @@ import net.minecraft.block.BlockState;
 import net.apucsw.mcrssmod.itemgroup.RSSTabItemGroup;
 import net.apucsw.mcrssmod.McrssmodModElements;
 
+
+
 import java.util.List;
 
 @McrssmodModElements.ModElement.Tag
 public class WearableMekatabItem extends McrssmodModElements.ModElement {
 	@ObjectHolder("mcrssmod:wearable_mekatab")
-	public static final Item block = null;
+	public static final Item item = null;
 
 	public WearableMekatabItem(McrssmodModElements instance) {
 		super(instance, 6);
