@@ -7,7 +7,8 @@
 **Author**: KOR_APUcard
 
 **Number of team members**: Single *(Currently no member)*   
-**NOTE**: You can request to join the team at any time.
+**NOTE**: You can request to join the team at any time.   
+**[You can request here](https://forms.gle/7j4mHkNg7Kyhdz5U8)**
 
 -----
 
