@@ -15,8 +15,6 @@ import net.minecraft.block.BlockState;
 import net.apucsw.mcrssmod.itemgroup.RSSTabItemGroup;
 import net.apucsw.mcrssmod.McrssmodModElements;
 
-
-
 import java.util.List;
 
 @McrssmodModElements.ModElement.Tag
