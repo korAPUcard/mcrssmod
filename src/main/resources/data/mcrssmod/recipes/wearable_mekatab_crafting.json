@@ -1,41 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
-      "item": "mekanismadditions:walkie_talkie"
-    },
-    "1": {
-      "item": "mekanism:configurator"
-    },
-    "2": {
-      "item": "mekanism:network_reader"
-    },
-    "3": {
-      "item": "mekanism:hdpe_sheet"
-    },
-    "4": {
-      "item": "mekanism:robit"
-    },
-    "5": {
-      "item": "mekanism:hdpe_sheet"
-    },
-    "6": {
-      "item": "mekanism:energy_tablet"
-    },
-    "7": {
-      "item": "forge:circuits/ultimate"
-    },
-    "8": {
-      "item": "mekanism:energy_tablet"
-    }
-  },
-  "result": {
-    "item": "mcrssmod:wearable_mekatab",
-    "count": 1
-  }
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "mcrssmod:wearable_mekatab"
+	},
+	"pattern": [
+		"TON",
+		"PRP",
+		"ECE"
+	],
+	"key": {
+		"T": {
+			"item": "mekanismadditions:walkie_talkie"
+		},
+		"O": {
+			"item": "mekanism:configurator"
+		},
+		"N": {
+			"item": "mekanism:network_reader"
+		},
+		"R": {
+			"item": "mekanism:robit"
+		},
+		"P": {
+			"item": "mekanism:hdpe_sheet"
+		},
+		"E": {
+			"item": "mekanism:energy_tablet"
+		},
+		"C": {
+			"item": "forge:circuits/ultimate"
+		},
+	},
 }

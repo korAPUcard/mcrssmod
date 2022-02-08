@@ -31,14 +31,6 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "wearable_mekatab"
-    },
-    {
-      "name": "WearableMekatabCrafting",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "wearable_mekatab_crafting"
     }
   ],
   "variable_elements": [],
