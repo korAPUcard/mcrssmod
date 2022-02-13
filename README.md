@@ -1,7 +1,7 @@
 # Realistic Survival System
 ### Minecraft MOD Project #1
 
-**MOD Version**: 0.1.0 *(Work In Progress, Test only version)*   
+**MOD Version**: 0.1.0 *(Work In Progress, Developer test only version)*   
 **NOTE**: **NOT** released yet.
 
 **Author**: KOR_APUcard
