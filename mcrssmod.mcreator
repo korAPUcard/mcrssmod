@@ -31,6 +31,22 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "wearable_mekatab"
+    },
+    {
+      "name": "RSSModDebuggingTool",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rss_mod_debugging_tool"
+    },
+    {
+      "name": "DebuggerRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugger_recipe"
     }
   ],
   "variable_elements": [],
@@ -38,11 +54,13 @@
   "language_map": {
     "ko_kr": {
       "item.mcrssmod.wearable_mekatab": "웨어러블 메카탭",
+      "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
       "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
       "itemGroup.tabrss_tab": "현실적 생존 시스템"
     },
     "en_us": {
       "item.mcrssmod.wearable_mekatab": "Wearable Meka Tab",
+      "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
       "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
       "itemGroup.tabrss_tab": "Realistic Survival System"
     }
