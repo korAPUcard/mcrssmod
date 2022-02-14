@@ -55,6 +55,36 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "wearable_mekatab_crafting"
+    },
+    {
+      "name": "ModDebuggerGUI",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_debugger_gui",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "UserStatusDataGUI",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "user_status_data_gui"
+    },
+    {
+      "name": "ModDebuggerTargetBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_debugger_target_block",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
