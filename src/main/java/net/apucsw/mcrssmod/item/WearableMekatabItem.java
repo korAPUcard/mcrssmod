@@ -37,8 +37,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
 import net.apucsw.mcrssmod.itemgroup.RSSTabItemGroup;
-import net.apucsw.mcrssmod.gui.UserStatusDataGUIGuiWindow;
-import net.apucsw.mcrssmod.gui.UserStatusDataGUIGui;
+import net.apucsw.mcrssmod.gui.UserStatusDataGuiWindow;
+import net.apucsw.mcrssmod.gui.UserStatusDataGui;
 import net.apucsw.mcrssmod.McrssmodModElements;
 
 import javax.annotation.Nullable;
@@ -62,7 +62,7 @@ public class WearableMekatabItem extends McrssmodModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void onItemDropped(ItemTossEvent event) {
 		if (event.getEntityItem().getItem().getItem() == block) {
-			if (Minecraft.getInstance().currentScreen instanceof UserStatusDataGUIGuiWindow) {
+			if (Minecraft.getInstance().currentScreen instanceof UserStatusDataGuiWindow) {
 				Minecraft.getInstance().player.closeScreen();
 			}
 		}
@@ -119,7 +119,7 @@ public class WearableMekatabItem extends McrssmodModElements.ModElement {
 						PacketBuffer packetBuffer = new PacketBuffer(Unpooled.buffer());
 						packetBuffer.writeBlockPos(new BlockPos(x, y, z));
 						packetBuffer.writeByte(hand == Hand.MAIN_HAND ? 0 : 1);
-						return new UserStatusDataGUIGui.GuiContainerMod(id, inventory, packetBuffer);
+						return new UserStatusDataGui.GuiContainerMod(id, inventory, packetBuffer);
 					}
 				}, buf -> {
 					buf.writeBlockPos(new BlockPos(x, y, z));

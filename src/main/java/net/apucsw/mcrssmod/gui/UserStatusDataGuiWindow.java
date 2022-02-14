@@ -18,13 +18,13 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class UserStatusDataGUIGuiWindow extends ContainerScreen<UserStatusDataGUIGui.GuiContainerMod> {
+public class UserStatusDataGuiWindow extends ContainerScreen<UserStatusDataGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	private final static HashMap guistate = UserStatusDataGUIGui.guistate;
+	private final static HashMap guistate = UserStatusDataGui.guistate;
 
-	public UserStatusDataGUIGuiWindow(UserStatusDataGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public UserStatusDataGuiWindow(UserStatusDataGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -35,7 +35,7 @@ public class UserStatusDataGUIGuiWindow extends ContainerScreen<UserStatusDataGU
 		this.ySize = 115;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("mcrssmod:textures/user_status_data_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("mcrssmod:textures/user_status_data.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {

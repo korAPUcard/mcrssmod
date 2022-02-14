@@ -29,12 +29,12 @@ import java.util.Map;
 import java.util.HashMap;
 
 @McrssmodModElements.ModElement.Tag
-public class UserStatusDataGUIGui extends McrssmodModElements.ModElement {
+public class UserStatusDataGui extends McrssmodModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 
-	public UserStatusDataGUIGui(McrssmodModElements instance) {
-		super(instance, 11);
+	public UserStatusDataGui(McrssmodModElements instance) {
+		super(instance, 13);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -46,13 +46,13 @@ public class UserStatusDataGUIGui extends McrssmodModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("user_status_data_gui"));
+			event.getRegistry().register(containerType.setRegistryName("user_status_data"));
 		}
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, UserStatusDataGUIGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, UserStatusDataGuiWindow::new));
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {

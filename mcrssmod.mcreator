@@ -68,14 +68,6 @@
       }
     },
     {
-      "name": "UserStatusDataGUI",
-      "type": "gui",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "user_status_data_gui"
-    },
-    {
       "name": "ModDebuggerTargetBlock",
       "type": "procedure",
       "sortid": 12,
@@ -85,6 +77,14 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "UserStatusData",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "user_status_data"
     }
   ],
   "variable_elements": [],
