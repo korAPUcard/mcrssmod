@@ -57,7 +57,7 @@ public class UserDataStatusGuiWindow extends ContainerScreen<UserDataStatusGui.G
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("mcrssmod:textures/gui/wearable_mekatab_screen_gui.png"));
 		this.blit(ms, this.guiLeft + 8, this.guiTop + 8, 0, 0, 256, 256, 256, 256);
 
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("mcrssmod:textures/gui/battery_value_normal.png"));
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("mcrssmod:textures/gui/bar/battery_value_normal.png"));
 		this.blit(ms, this.guiLeft + 150, this.guiTop + 16, 0, 0, 9, 3, 9, 3);
 
 		RenderSystem.disableBlend();

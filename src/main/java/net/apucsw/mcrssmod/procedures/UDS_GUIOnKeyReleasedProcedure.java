@@ -1,6 +1,5 @@
 package net.apucsw.mcrssmod.procedures;
 
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.apucsw.mcrssmod.McrssmodModVariables;
@@ -10,15 +9,13 @@ import java.util.Map;
 
 public class UDS_GUIOnKeyReleasedProcedure {
 
-	public static boolean executeProcedure(Map<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				McrssmodMod.LOGGER.warn("Failed to load dependency entity for procedure UDS_GUIOnKeyReleased!");
-			return false;
+			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).closeScreen();
 		{
 			boolean _setval = (false);
 			entity.getCapability(McrssmodModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -26,7 +23,5 @@ public class UDS_GUIOnKeyReleasedProcedure {
 				capability.syncPlayerVariables(entity);
 			});
 		}
-		return (entity.getCapability(McrssmodModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new McrssmodModVariables.PlayerVariables())).isKeyHolding;
 	}
 }

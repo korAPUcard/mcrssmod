@@ -102,7 +102,38 @@
       "locked_code": false,
       "registry_name": "uds_gui_on_key_pressed",
       "metadata": {
-        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UDS_GUIOnKeyReleased",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uds_gui_on_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UDS_GUIKeyProcedure",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uds_gui_key_procedure",
+      "metadata": {
         "dependencies": [
           {
             "name": "entity",
@@ -116,21 +147,12 @@
       }
     },
     {
-      "name": "UDS_GUIOnKeyReleased",
-      "type": "procedure",
-      "sortid": 15,
+      "name": "ModPlayerContainer",
+      "type": "code",
+      "sortid": 18,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "uds_gui_on_key_released",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "locked_code": true,
+      "registry_name": "mod_player_container"
     }
   ],
   "variable_elements": [
