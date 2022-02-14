@@ -102,7 +102,17 @@
       "locked_code": false,
       "registry_name": "uds_gui_on_key_pressed",
       "metadata": {
-        "dependencies": []
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
@@ -113,11 +123,24 @@
       "locked_code": false,
       "registry_name": "uds_gui_on_key_released",
       "metadata": {
-        "dependencies": []
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "isKeyHolding",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "ko_kr": {

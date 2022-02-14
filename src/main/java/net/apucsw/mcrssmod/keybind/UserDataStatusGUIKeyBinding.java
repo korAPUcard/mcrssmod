@@ -23,8 +23,11 @@ import net.apucsw.mcrssmod.procedures.UDS_GUIOnKeyPressedProcedure;
 import net.apucsw.mcrssmod.McrssmodModElements;
 import net.apucsw.mcrssmod.McrssmodMod;
 
+import java.util.stream.Stream;
 import java.util.function.Supplier;
-import java.util.Collections;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @McrssmodModElements.ModElement.Tag
 public class UserDataStatusGUIKeyBinding extends McrssmodModElements.ModElement {
@@ -101,11 +104,14 @@ public class UserDataStatusGUIKeyBinding extends McrssmodModElements.ModElement 
 			return;
 		if (type == 0) {
 
-			UDS_GUIOnKeyPressedProcedure.executeProcedure(Collections.EMPTY_MAP);
+			UDS_GUIOnKeyPressedProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (type == 1) {
 
-			UDS_GUIOnKeyReleasedProcedure.executeProcedure(Collections.EMPTY_MAP);
+			UDS_GUIOnKeyReleasedProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }
