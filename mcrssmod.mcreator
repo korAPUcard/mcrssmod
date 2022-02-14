@@ -79,12 +79,42 @@
       }
     },
     {
-      "name": "UserStatusData",
+      "name": "UserDataStatus",
       "type": "gui",
       "sortid": 13,
       "compiles": true,
+      "locked_code": true,
+      "registry_name": "user_data_status"
+    },
+    {
+      "name": "UserDataStatusGUI",
+      "type": "keybind",
+      "sortid": 14,
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "user_status_data"
+      "registry_name": "user_data_status_gui"
+    },
+    {
+      "name": "UDS_GUIOnKeyPressed",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uds_gui_on_key_pressed",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "UDS_GUIOnKeyReleased",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uds_gui_on_key_released",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -92,15 +122,19 @@
   "language_map": {
     "ko_kr": {
       "item.mcrssmod.wearable_mekatab": "웨어러블 메카탭",
+      "key.mcrssmod.user_data_status_gui": "User Data Status GUI Key",
       "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
       "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
-      "itemGroup.tabrss_tab": "현실적 생존 시스템"
+      "itemGroup.tabrss_tab": "현실적 생존 시스템",
+      "key.categories.mcrssmod": "현실적 생존 체계"
     },
     "en_us": {
       "item.mcrssmod.wearable_mekatab": "Wearable Meka Tab",
+      "key.mcrssmod.user_data_status_gui": "User Data Status GUI Key",
       "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
       "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
-      "itemGroup.tabrss_tab": "Realistic Survival System"
+      "itemGroup.tabrss_tab": "Realistic Survival System",
+      "key.categories.mcrssmod": "Realistic Survival System"
     }
   },
   "foldersRoot": {

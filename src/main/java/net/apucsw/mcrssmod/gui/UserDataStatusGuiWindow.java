@@ -18,13 +18,13 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class UserStatusDataGuiWindow extends ContainerScreen<UserStatusDataGui.GuiContainerMod> {
+public class UserDataStatusGuiWindow extends ContainerScreen<UserDataStatusGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	private final static HashMap guistate = UserStatusDataGui.guistate;
+	private final static HashMap guistate = UserDataStatusGui.guistate;
 
-	public UserStatusDataGuiWindow(UserStatusDataGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public UserDataStatusGuiWindow(UserDataStatusGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -35,7 +35,7 @@ public class UserStatusDataGuiWindow extends ContainerScreen<UserStatusDataGui.G
 		this.ySize = 115;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("mcrssmod:textures/user_status_data.png");
+	private static final ResourceLocation texture = new ResourceLocation("mcrssmod:textures/user_data_status.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -55,6 +55,9 @@ public class UserStatusDataGuiWindow extends ContainerScreen<UserStatusDataGui.G
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("mcrssmod:textures/wearable_mekatab_screen_gui.png"));
+		this.blit(ms, this.guiLeft + 8, this.guiTop + 8, 0, 0, 256, 256, 256, 256);
+
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("mcrssmod:textures/wearable_mekatab_screen_gui_elements.png"));
 		this.blit(ms, this.guiLeft + 8, this.guiTop + 8, 0, 0, 256, 256, 256, 256);
 
 		RenderSystem.disableBlend();

@@ -29,11 +29,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @McrssmodModElements.ModElement.Tag
-public class UserStatusDataGui extends McrssmodModElements.ModElement {
+public class UserDataStatusGui extends McrssmodModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 
-	public UserStatusDataGui(McrssmodModElements instance) {
+	public UserDataStatusGui(McrssmodModElements instance) {
 		super(instance, 13);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
@@ -46,13 +46,13 @@ public class UserStatusDataGui extends McrssmodModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("user_status_data"));
+			event.getRegistry().register(containerType.setRegistryName("user_data_status"));
 		}
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, UserStatusDataGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, UserDataStatusGuiWindow::new));
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {

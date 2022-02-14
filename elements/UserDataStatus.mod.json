@@ -6,7 +6,7 @@
     "width": 180,
     "height": 115,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "inventoryOffsetY": 16,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -16,6 +16,16 @@
           "image": "wearable_mekatab_screen_gui.png",
           "use1Xscale": false,
           "name": "wearable_mekatab_screen_gui.png",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wearable_mekatab_screen_gui_elements.png",
+          "use1Xscale": false,
+          "name": "wearable_mekatab_screen_gui_elements.png",
           "x": 132,
           "y": 71
         }

@@ -28,7 +28,7 @@
       "Description WIP"
     ],
     "hasGlow": false,
-    "guiBoundTo": "UserStatusData",
+    "guiBoundTo": "UserDataStatus",
     "inventorySize": 9,
     "inventoryStackSize": 1,
     "hasDispenseBehavior": false
