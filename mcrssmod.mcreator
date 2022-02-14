@@ -47,6 +47,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "debugger_recipe"
+    },
+    {
+      "name": "WearableMekatabCrafting",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wearable_mekatab_crafting"
     }
   ],
   "variable_elements": [],
