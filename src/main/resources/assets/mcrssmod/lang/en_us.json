@@ -3,6 +3,7 @@
   "key.mcrssmod.user_data_status_gui": "User Data Status GUI Key",
   "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
   "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
+  "block.mcrssmod.energy_test_block": "Energy Storage Test",
   "itemGroup.tabrss_tab": "Realistic Survival System",
   "key.categories.mcrssmod": "Realistic Survival System"
 }

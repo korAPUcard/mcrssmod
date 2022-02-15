@@ -41,6 +41,8 @@ import net.apucsw.mcrssmod.gui.UserDataStatusGuiWindow;
 import net.apucsw.mcrssmod.gui.UserDataStatusGui;
 import net.apucsw.mcrssmod.McrssmodModElements;
 
+//import mekanism.common.util.StorageUtils;
+
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
 
@@ -95,11 +97,12 @@ public class WearableMekatabItem extends McrssmodModElements.ModElement {
 		}
 
 		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Description WIP"));
+		public void addInformation(@Nonnull ItemStack itemstack, World world, @Nonnull List<ITextComponent> tooltip, @Nonnull ITooltipFlag flag) {
+			//super.addInformation(itemstack, world, tooltip, flag);
+			//tooltip.add(new StringTextComponent("Description WIP"));
+			//StorageUtils.addStoredEnergy(stack, tooltip, true);
 		}
-
+		/*
 		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
@@ -128,7 +131,7 @@ public class WearableMekatabItem extends McrssmodModElements.ModElement {
 			}
 			return ar;
 		}
-
+		*/
 		@Override
 		public ICapabilityProvider initCapabilities(ItemStack stack, @Nullable CompoundNBT compound) {
 			return new InventoryCapability();

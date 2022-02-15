@@ -104,8 +104,9 @@ public class UserDataStatusGUIKeyBinding extends McrssmodModElements.ModElement 
 			return;
 		if (type == 0) {
 
-			UDS_GUIOnKeyPressedProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			UDS_GUIOnKeyPressedProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (type == 1) {
 

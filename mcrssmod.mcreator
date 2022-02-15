@@ -106,6 +106,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -153,6 +157,30 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "mod_player_container"
+    },
+    {
+      "name": "GUISlotTest",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_slot_test"
+    },
+    {
+      "name": "EnergyTestBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_test_block"
+    },
+    {
+      "name": "GUITest1",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_test_1"
     }
   ],
   "variable_elements": [
@@ -161,6 +189,42 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "time_am",
+      "type": "string",
+      "scope": "world",
+      "value": "\"\""
+    },
+    {
+      "name": "time_pm",
+      "type": "string",
+      "scope": "world",
+      "value": "\"\""
+    },
+    {
+      "name": "time_hour",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "time_minute",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "time_second",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "time_tick",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -170,6 +234,7 @@
       "key.mcrssmod.user_data_status_gui": "User Data Status GUI Key",
       "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
       "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
+      "block.mcrssmod.energy_test_block": "Energy Storage Test",
       "itemGroup.tabrss_tab": "현실적 생존 시스템",
       "key.categories.mcrssmod": "현실적 생존 체계"
     },
@@ -178,6 +243,7 @@
       "key.mcrssmod.user_data_status_gui": "User Data Status GUI Key",
       "item.mcrssmod.rss_mod_debugging_tool": "Mod Debugger",
       "item.mcrssmod.wearable_device_icon_only": "Wearable Meka Tab",
+      "block.mcrssmod.energy_test_block": "Energy Storage Test",
       "itemGroup.tabrss_tab": "Realistic Survival System",
       "key.categories.mcrssmod": "Realistic Survival System"
     }
