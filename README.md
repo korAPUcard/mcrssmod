@@ -23,3 +23,6 @@ It's work in progress.
 
 **[Become a Patron!](https://www.patreon.com/bePatron?u=21981324)**   
 The mod itself is free, but if you like the mod project and would like to see continuous development, please help me by sponsoring or supporting me to keep this project going.
+
+**[Join to our Discord Server](https://discord.gg/tUHk9x7QrF)**
+You can join the server to get news about various projects.
