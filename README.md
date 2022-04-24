@@ -18,3 +18,8 @@ This MOD will add more realistic survival element and features.
 #### ATTENTION: This project is volatile. Therefore, there is a possibility that development will be delayed too long or terminated forever at any time if no any updates.
 
 It's work in progress.
+
+-----
+
+**[Become a Patron!](https://www.patreon.com/bePatron?u=21981324)**   
+The mod itself is free, but if you like the mod project and would like to see continuous development, please help me by sponsoring or supporting me to keep this project going.
