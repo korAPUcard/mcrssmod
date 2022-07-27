@@ -32,3 +32,6 @@ src/main/resources/assets/mcrssmod/models/item/energy_test_block.json
 src/main/resources/assets/mcrssmod/textures/blocks/test_texture_0.png
 src/main/resources/assets/mcrssmod/textures/gui_slot_test.png
 src/main/resources/assets/mcrssmod/textures/gui_test_1.png
+build.gradle
+mcreator.gradle
+*.mcreator

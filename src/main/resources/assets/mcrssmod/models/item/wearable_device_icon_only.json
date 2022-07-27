@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "mcrssmod:items/wearable_device_mekatab"
-  }
-}

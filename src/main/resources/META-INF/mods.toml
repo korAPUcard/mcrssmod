@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[40,)"
 license="Creative Commons Attribution-ShareAlike 4.0"
 
 [[mods]]
@@ -9,28 +9,18 @@ displayName="Realistic Survival System"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="KOR_APUcard, MCreator"
+description='''
+Makes Minecraft's survival systems to more realistic.
+'''
 
 [[dependencies.mcrssmod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
 
 
-
-[[dependencies.mcrssmod]]
-    modId="just_enough_items"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.mcrssmod]]
-    modId="curios"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.mcrssmod]]
     modId="mekanism"
@@ -38,3 +28,4 @@ authors="KOR_APUcard, MCreator"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+
