@@ -181,6 +181,94 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_test_1"
+    },
+    {
+      "name": "WaterStats",
+      "type": "code",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "water_stats"
+    },
+    {
+      "name": "ExcretaStats",
+      "type": "code",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "excreta_stats"
+    },
+    {
+      "name": "UrineStats",
+      "type": "code",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "urine_stats"
+    },
+    {
+      "name": "OrgasmStats",
+      "type": "code",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "orgasm_stats"
+    },
+    {
+      "name": "Drink",
+      "type": "code",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drink"
+    },
+    {
+      "name": "Drinks",
+      "type": "code",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drinks"
+    },
+    {
+      "name": "AdvancedAirStats",
+      "type": "code",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advanced_air_stats"
+    },
+    {
+      "name": "RSSDamageSource",
+      "type": "code",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rss_damage_source"
+    },
+    {
+      "name": "BodyTempertureStats",
+      "type": "code",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "body_temperture_stats"
+    },
+    {
+      "name": "EnvTemperture",
+      "type": "code",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "env_temperture"
+    },
+    {
+      "name": "RSSEffects",
+      "type": "code",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rss_effects"
     }
   ],
   "variable_elements": [
