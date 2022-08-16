@@ -1,7 +1,7 @@
 # Realistic Survival System
 ### Minecraft MOD Project #1
 
-**MOD Version**: 0.1.0 *(Work In Progress, Developer test only version)*   
+**MOD Version**: 0.1.0 *(Still in development. When it's done, maybe mod versions changed or not.)*   
 **NOTE**: **NOT** released yet.
 
 **Author**: KOR_APUcard
@@ -17,7 +17,18 @@ This MOD will add more realistic survival element and features.
 
 #### ATTENTION: This project is volatile. Therefore, there is a possibility that development will be delayed too long or terminated forever at any time if no any updates.
 
-It's work in progress.
+**It's still in development.**
+
+-----
+
+### Currently development in Minecraft version
+
+| MC version | Status |
+| --- | --- |
+| 1.19 | *Not planned yet* |
+| 1.18 | **In development** |
+| ~~1.17~~ | ~~Skipped~~ |
+| ~~1.16~~ | ~~Abandoned~~ |
 
 -----
 
