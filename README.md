@@ -28,7 +28,7 @@ This MOD will add more realistic survival element and features.
 | 1.19 | *Not planned yet* |
 | 1.18 | **In development** |
 | ~~1.17~~ | ~~Skipped~~ |
-| ~~1.16~~ | ~~Abandoned~~ |
+| ~~1.16~~ | ~~Canceled~~ |
 
 -----
 
