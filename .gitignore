@@ -1,6 +1,9 @@
 # Gradle build system ignores
 .gradle/
 build/
+build.gradle
+gradlew.bat
+mcreator.gradle
 
 # Other IDE related folders
 .idea/
@@ -8,6 +11,7 @@ build/
 
 # MCreator workspace
 .mcreator/
+mcrssmod.mcreator
 
 # Minecraft client/server files
 run/
@@ -18,9 +22,9 @@ run/
 # Other Files (In Eclipse)
 .classpath
 .project
-elements/GUITest1.mod.json
-elements/EnergyTestBlock.mod.json
-elements/GUISlotTest.mod.json
+
+# Developers only files
+elements/
 src/main/java/net/apucsw/mcrssmod/block/EnergyTestBlockBlock.java
 src/main/java/net/apucsw/mcrssmod/gui/GUISlotTestGui.java
 src/main/java/net/apucsw/mcrssmod/gui/GUISlotTestGuiWindow.java
