@@ -1,7 +1,7 @@
 # Realistic Survival System
 ### Minecraft MOD Project #1
 
-**MOD Version**: 0.1.0 *(Work In Progress, Developer test only version)*   
+**MOD Version**: 0.1.0 *(Still in development. When it's done, maybe mod versions changed or not.)*   
 **NOTE**: **NOT** released yet.
 
 **Author**: KOR_APUcard
@@ -13,11 +13,21 @@
 -----
 
 ### Description
-This MOD will add more realistic survival element and features.
+This MOD will add more realistic survival element and features.   
+Basically when using this mod with other technology mods, you can make a automation systems for more convenient survival.
 
-#### ATTENTION: This project is volatile. Therefore, there is a possibility that development will be delayed too long or terminated forever at any time if no any updates.
+**It's still in development.**
 
-It's work in progress.
+-----
+
+### Currently development in Minecraft version
+
+| MC version | Status |
+| --- | --- |
+| 1.19 | *Not planned yet* |
+| 1.18 | **In development** |
+| ~~1.17~~ | ~~Skipped~~ |
+| ~~1.16~~ | ~~Canceled~~ |
 
 -----
 
