@@ -13,9 +13,8 @@
 -----
 
 ### Description
-This MOD will add more realistic survival element and features.
-
-#### ATTENTION: This project is volatile. Therefore, there is a possibility that development will be delayed too long or terminated forever at any time if no any updates.
+This MOD will add more realistic survival element and features.   
+Basically when using this mod with other technology mods, you can make a automation systems for more convenient survival.
 
 **It's still in development.**
 
