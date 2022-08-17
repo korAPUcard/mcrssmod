@@ -17,7 +17,7 @@ This MOD will add more realistic survival element and features.
 
 #### ATTENTION: This project is volatile. Therefore, there is a possibility that development will be delayed too long or terminated forever at any time if no any updates.
 
-It's work in progress.
+#### ANNOUNCEMENT: All developments to 1.16x versions are canceled. Currently no longer working on 1.16x versions. Now this project's developments are active on the 1.18+ version.
 
 -----
 
