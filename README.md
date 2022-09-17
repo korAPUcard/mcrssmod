@@ -26,8 +26,8 @@ Basically when using this mod with other technology mods, you can make a automat
 | --- | --- |
 | 1.19 | *Not planned yet* |
 | 1.18 | **In development** |
-| ~~1.17~~ | ~~Skipped~~ |
-| ~~1.16~~ | ~~Canceled~~ |
+| ~~1.17~~ | Skipped |
+| ~~1.16~~ | Canceled |
 
 -----
 
