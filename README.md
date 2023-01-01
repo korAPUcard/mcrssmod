@@ -13,7 +13,7 @@
 -----
 
 ### Description
-This MOD will add more realistic survival element and features.   
+This mod will add more realistic survival element and features.   
 Basically when using this mod with other technology mods, you can make a automation systems for more convenient survival.
 
 **It's still in development.**
