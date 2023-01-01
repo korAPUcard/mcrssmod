@@ -22,12 +22,12 @@ Basically when using this mod with other technology mods, you can make a automat
 
 ### Currently development in Minecraft version
 
-| MC version | Status |
-| --- | --- |
-| 1.19 | *Not planned yet* |
-| 1.18 | **In development** |
-| ~~1.17~~ | Skipped |
-| ~~1.16~~ | Canceled |
+| MC version | Status                  |
+|------------|-------------------------|
+| 1.19       | **Working on progress** |
+| 1.18       | *WIP in 10%, Suspended* |
+| ~~1.17~~   | Skipped                 |
+| ~~1.16~~   | Canceled                |
 
 -----
 
