@@ -24,7 +24,7 @@ Basically when using this mod with other technology mods, you can make a automat
 
 | MC version | Status                  |
 |------------|-------------------------|
-| 1.20       | **Work in progress**    |
+| **1.20**   | **Work in progress**    |
 | ~~1.19~~   | Canceled                |
 | ~~1.18~~   | Canceled                |
 | ~~1.17~~   | Skipped                 |
