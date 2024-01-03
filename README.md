@@ -27,7 +27,7 @@ Basically when using this mod with other technology mods, you can make a automat
 | **1.20**   | **Work in progress**    |
 | ~~1.19~~   | Canceled                |
 | ~~1.18~~   | Canceled                |
-| ~~1.17~~   | Skipped                 |
+| ~~_1.17_~~ | _Skipped_               |
 | ~~1.16~~   | Canceled                |
 
 The reason why the 1.18.x and 1.19.x has been stopped to development forever, because I have changed my computer to new and most old repositories has been corrupted during data transfer.   
