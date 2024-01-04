@@ -4,7 +4,7 @@
 **MOD Version**: 0.1.0 *(Still in development. When it's done, maybe mod versions changed or not.)*   
 **NOTE**: **NOT** released yet.
 
-**Author**: KOR_APUcard
+**Author**: APUcard
 
 **Number of team members**: Single *(Currently no member)*   
 **NOTE**: You can request to join the team at any time.   
