@@ -1,8 +1,0 @@
-# Made in Blockbench 4.1.4
-newmtl m_4
-map_Kd mcrssmod:entity/armor/wearable_mekatab_body.png 
-newmtl m_5
-map_Kd mcrssmod:entity/armor/wearable_mekatab_screen_active.png 
-newmtl m_6
-map_Kd mcrssmod:entity/armor/wearable_mekatab_logo.png 
-newmtl none

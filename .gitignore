@@ -1,38 +1,26 @@
-# Gradle build system ignores
-.gradle/
-build/
-build.gradle
-gradlew.bat
-mcreator.gradle
-
-# Other IDE related folders
-.idea/
-.settings/
-
-# MCreator workspace
-.mcreator/
-mcrssmod.mcreator
-
-# Minecraft client/server files
-run/
-
-# MacOS system files
-.DS_STORE
-
-# Other Files (In Eclipse)
+# eclipse
+bin
+*.launch
+.settings
+.metadata
 .classpath
 .project
 
-# Developers only files
-elements/
-src/main/java/net/apucsw/mcrssmod/block/EnergyTestBlockBlock.java
-src/main/java/net/apucsw/mcrssmod/gui/GUISlotTestGui.java
-src/main/java/net/apucsw/mcrssmod/gui/GUISlotTestGuiWindow.java
-src/main/java/net/apucsw/mcrssmod/gui/GUITest1Gui.java
-src/main/java/net/apucsw/mcrssmod/gui/GUITest1GuiWindow.java
-src/main/resources/assets/mcrssmod/blockstates/energy_test_block.json
-src/main/resources/assets/mcrssmod/models/block/energy_test_block.json
-src/main/resources/assets/mcrssmod/models/item/energy_test_block.json
-src/main/resources/assets/mcrssmod/textures/blocks/test_texture_0.png
-src/main/resources/assets/mcrssmod/textures/gui_slot_test.png
-src/main/resources/assets/mcrssmod/textures/gui_test_1.png
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+nppBackup
+
+# Files from Forge MDK
+forge*changelog.txt
